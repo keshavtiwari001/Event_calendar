@@ -1,12 +1,13 @@
 import React from 'react'
-import Calendar from '../components/Calendar'
 import Navbar from '../components/Navbar/Navbar'
+import Calendar from '../components/Calendar/Calendar'
+import Events from '../components/Events/Events'
 
 const FinalCalendar = () => {
   return (
-    <div>
-        <Navbar />
+    <div className='flex items-center'>
         <Calendar />
+        <Events />
     </div>
   )
 }

@@ -4,15 +4,15 @@ import "../Navbar/style.css"
 const Navbar = () => {
     return (
         <>
-            <div class="card">
-                <div class="loader">
+            <div className="card">
+                <div className="loader">
                     <p>Shree</p>
-                    <div class="words">
-                        <span class="word">Hari</span>
-                        <span class="word">Radhe</span>
-                        {/* <span class="word">switches</span>
-                        <span class="word">cards</span>
-                        <span class="word">buttons</span> */}
+                    <div className="words">
+                        <span className="word">Hari</span>
+                        <span className="word">Radhe</span>
+                        {/* <span className="word">switches</span>
+                        <span className="word">cards</span>
+                        <span className="word">buttons</span> */}
                     </div>
                 </div>
             </div>
